@@ -1,0 +1,138 @@
+/* media queries for large tablets to laptops */
+@media only screen and (max-width: 1200px) {
+       .hero-text-box{
+    
+        width: 100%;
+        padding: 0 2%;
+        
+        
+    }
+    .group{
+        padding: 0 2%;
+    }
+}
+
+
+
+/* media queries for small tablets to large tablets */
+@media only screen and (max-width: 1023px) {
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    body{ font-size: 18px;}
+    section{
+        padding: 60px 0;
+    }
+    .section-box{
+        margin: 10px;
+    }
+    .google{
+       position: relative;
+       top: 20px;
+    }
+    .work-box2{
+        margin-top: 20px;
+        position: relative;
+        right: -20px;
+        
+    }
+    .work-step{
+        position: relative;
+         bottom: 47px;
+        
+    }
+    .good-icons{
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+/* media queries for small phone to small tablet */
+@media only screen and (max-width: 767px) {
+    .hero-text-box h1{
+        font-size: 120%;
+        font-weight: 700;
+    }
+    .hero-text-box a{
+        width: 30%;
+    }
+   .box p{
+    font-size: 60%;
+   }
+   .box .icons{
+    font-size: 190%;
+   }
+   .long-copy {
+    font-size: 13px;
+   }
+   .work-step p{
+    font-size: 15px;
+   }
+   
+   .city-feauture{
+    font-size: 12px;
+   }
+  .city-feauture .icons-small{
+   width: 30px;
+}
+.main-nav li{
+    font-size: 14px;
+   
+}
+.main-nav{
+    margin-top: 22px;
+}
+ .swastik{
+    height: 75px;
+
+}
+.footernav{
+    font-size: 10px;
+}
+}
+
+/* media queries for small phone */
+@media only screen and (max-width: 480px) {
+    section{
+        padding: 25px 0;
+    }
+    .main-nav li{
+        margin: 4px;
+        font-size: 60%;
+    }
+    .main-nav{
+        margin-top: 10px;
+    }
+   nav .group{
+    padding: 0;
+    font-size: 100%;
+    margin: 0;
+
+   }
+   .swastik{
+    height: 50px;
+   }
+   .hero-text-box a{
+    width: 30%;
+    font-size: 30%
+    ;
+   }
+   .long-copy{
+    font-size: 10px;
+   }
+   .work-box img{
+    margin: 30px;
+
+   }
+   .work-step {
+   position: relative;
+        bottom: 10px;
+        left: 28px;
+   }
+   .good-icons{
+     position: relative;
+    bottom: 1px;
+   }
+
+}
